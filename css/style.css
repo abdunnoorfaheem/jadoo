@@ -2,7 +2,7 @@
 
 .topNav{
   background:url("/img/banner.png");
-  height: 850px;
+  height: 1050px;
   padding-top: 18px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,20 +31,21 @@
 .banner h4{
     color: #DF6951;
     font-family: "Poppins", sans-serif;
+    padding-top: 57px;
 }
 .banner h1{
     color: #000000;
     font-family: "Volkhov", serif;
     font-size: 84px;
     font-weight: 700;
-    width: 655px;
+    max-width: 655px;
     padding-top: 24px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 .banner p{
     color: #5E6282;
     font-family: "Poppins", sans-serif;
-    width: 477px;
+    max-width: 477px;
     padding-bottom: 34px;
 }
 #findBtn{
@@ -55,11 +56,16 @@
     border-radius: 10px;
     margin-right: 30px;
 }
-.fa-play{
-    background: #DF6951;
-    color: #fff;
+.play{
+    
+    margin-top: 30px;
+    
 }
 #playBtn{
+    color:#686D77;
     border: none;
     background: transparent;
+    -margin-left: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
